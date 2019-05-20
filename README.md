@@ -12,7 +12,7 @@ covered by any of the rectangles of barren land.
 
 * An integer double matrix used for representing barren land. 
 Using Analyser, traversing all the coordinates in the farm
-using Breadth First Traversing. 
+using Graph Traversal technique. 
 
 * While traversing all the visited coordinates as visited to avoid duplicate calculation.
 Traversal will be stopped if no un-visited and fertile land found.
@@ -40,7 +40,7 @@ It also have util methods for accessing information related to specific coordina
 
 ##### BarrenLandAnalyser
 It'll take the Farm, and find the fertile land area inside the given farm.
-Using Bread First traversing it'll count the fertile land area. 
+Using Graph traversing it'll count the fertile land area. 
 
 
 ### System Requirements
